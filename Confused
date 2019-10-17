@@ -1,4 +1,0 @@
-//JavaScript
-draw = function () {
-ellipse(20, 20, 20, 20);
-};
