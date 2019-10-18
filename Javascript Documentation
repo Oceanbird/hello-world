@@ -1,0 +1,98 @@
+Shapes
+  rect(x, y, w, h)
+  triangle(x1, y1, x2, y2, x3, y3)
+  point(x, y)
+  bezier(x1, y1, cx1, cy1, cx2, cy2, x2, y2)
+  image(immage, x, y, width*, height*)
+  ellipse(x, y, w, h)
+  line(x1, y1, x2, y2)
+  arc(x, y, w, h, start, stop)
+  quad(x1, y1, x2, y2, x3, y3, x4, y4)
+  See Also: ellipseMode, rectMode, imageMode, strokeCap, bezierPoint, bezierTangent, curve, curvePoint, curveTangent, curveTightness
+Complex Shapes
+  beginShape() / endShape() / vertex()
+  bezierVertex()
+  curveVertex()
+  See Also: strokeJoin, curveTightness
+Colors
+  backround(r, g, b)
+  noFill()
+  strokeWeight(thickness)
+  color(r, g, b)
+  lerpColor(c1, c2, amount)
+  fill(r, g, b)
+  stroke(r, g, b)
+  noStroke()
+  blendColor(c1, c2, MODE)
+  See Also: colorMode, red, green, blue, alpha, hue, saturation, brightness
+Text
+  text(text, x, y)
+  textSize(size)
+  textFont(font, size*)
+  See Also: textWidth, textAscent, textDescent, textLeading, textAlign
+Transform
+  rotat(angle)
+  translate(x, y)
+  scale(amount)
+  See Also: pushMatrix/popMatrix, resetMatrix, printMatrix
+Environment
+  width / height
+  playSound(sound)
+  draw = function () { }
+  See Also: Program.assertEqual, Program.restart, frameRate(fps), frameCount, loop, noLoop
+Mouse
+  mouseX, mouseY
+  mouseButton
+  mouseClicked = function () { }
+  mouseReleased = function () { }
+  mouseDragged = function () { }
+  mouseOut = function () { }
+  pmouseX, pmouseY
+  mouseIsPressed
+  mousePressed = function() { }
+  mouseMoved = function() { }
+  mouseOver = function() { }
+Keyboard
+  key
+  keyIsPressed
+  keyReleased = function() { }
+  keyCode
+  keyPressed = function() { }
+  keyTyped = function() { }
+Math
+  random(low, hight)
+  constrain(value, min, max)
+  max(num1, num2)
+  log(num)
+  sq(num)
+  round(num)
+  floor(num)
+  dist(x1, y1, x2, y2)
+  min(num1, num2)
+  abs(num)
+  pow(num, exponent)
+  sqrt(num)
+  ceil(num)
+  PVector(x, y)
+  See Also: mag, exp, map, norm, lerp, noise, noiseDetail, Random,nextGaussian
+Trigonometry
+  cos(degrees)
+  tan(degrees)
+  sing(degrees)
+  See Also: acos, asin, atan, atan2, radians, degrees, angleMode
+Date & Time
+  day() / month() / year()
+  millis()
+  hour() / minute() / second()
+Debugging
+  debug(arg1, arg2, ...)
+  print(data)
+  println(data)
+JavaScript
+  var drawSomething = function() {}
+  if () { }
+  while () { }
+  var array = [1, 2, 3, 4, 5]
+  for (var i = 0; i < 8; i++) { }
+  
+  
